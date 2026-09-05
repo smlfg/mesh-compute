@@ -1,0 +1,11 @@
+providers:
+  mbp-ollama:
+    api: http://100.100.119.4:11434/v1   # or http://samuel-mbp:11434/v1
+    default_model: mistral:latest
+    models:
+      - mistral:latest
+      - gpt-oss:20b
+      - gemma4:26b
+      - qwen3.5:35b
+      - qwen3.6:35b-a3b
+      - muse-glimmer:30b-mlx

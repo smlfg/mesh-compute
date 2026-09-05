@@ -1,0 +1,32 @@
+# Secrets and local env
+.env
+.env.*
+*.key
+*.pem
+secrets/
+**/secrets/
+
+# Private Hermes configs (use examples/ templates only)
+hermes.yaml
+hermes.yml
+**/hermes.local.*
+**/hermes.private.*
+
+# Ollama local state / blobs
+.ollama/
+ollama-models/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# macOS / editors
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
